@@ -11,7 +11,7 @@ export default class App extends Component {
       studentId: "2"
     };
   }
-  
+
   componentDidMount(){
     console.log("test")
     fetch("https://react-locus.herokuapp.com/view/1")
@@ -26,16 +26,18 @@ export default class App extends Component {
   
   render() {
     return (
+
       <View style={styles.container}>
+       <View style={styles.header}> 
        <Text style={styles.h2}> Locus</Text>
+       </View> 
         <Text style={styles.paragraph}>
           Projects list for student id: {this.state.studentId}
         </Text>
-
         
         <Text style={styles.heading}>Enter Student ID</Text>
         <TextInput
-          style={{ width: 200, height: 44, padding: 8 , border: 2 , borderStyle :'solid'}}
+          style={styles.input}
           defaultValue="studentId"
           onChangeText={(text) => this.setState({studentId: text})}
         />
@@ -44,6 +46,7 @@ export default class App extends Component {
         dataSource={this.state.projects}
         renderRow={(project) => <Text style={styles.item}>Project: {project.name} | Project: {project.name} | Instructions: {project.instructions}</Text>}
       />
+
       </View>
     );
   }
@@ -55,7 +58,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     paddingTop: Constants.statusBarHeight,
-    backgroundColor: '#ecf0f1',
+    backgroundColor: '#78bcaf',
   },
   h2: {
     fontSize: 18,
@@ -63,7 +66,12 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginTop:10,
     color: 'blue',
-    backgroundColor:'lightblue'
+    backgroundColor:'lightblue',
+  },
+  header:{
+    alignSelf: 'strech',
+    flexDirection: 'row',
+    backgroundColor: '#849974',
   },
   paragraph: {
     margin: 24,
@@ -73,7 +81,14 @@ const styles = StyleSheet.create({
     color: '#34495e',
   },
   item: {
-    marginTop: 10
+    marginTop: 10,
+  },
+  input:{
+    width: 200, 
+    height: 44, 
+    padding: 8 , 
+    border: 2 , 
+    borderStyle :'solid'
   }
   
 });

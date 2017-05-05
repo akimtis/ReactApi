@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/Anna/Coding/ReactApi/LocusMobile/node_modules/react-native/Libraries/Text/RCTText.m \
+  /Users/Anna/Coding/ReactApi/LocusMobile/node_modules/react-native/Libraries/Text/RCTText.h \
+  /Users/Anna/Coding/ReactApi/LocusMobile/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/Anna/Coding/ReactApi/LocusMobile/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/Anna/Coding/ReactApi/LocusMobile/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/Anna/Coding/ReactApi/LocusMobile/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/Anna/Coding/ReactApi/LocusMobile/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/Anna/Coding/ReactApi/LocusMobile/node_modules/react-native/Libraries/Text/RCTShadowText.h \
+  /Users/Anna/Coding/ReactApi/LocusMobile/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/Anna/Coding/ReactApi/LocusMobile/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/Anna/Coding/ReactApi/LocusMobile/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/Anna/Coding/ReactApi/LocusMobile/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/Anna/Coding/ReactApi/LocusMobile/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/Anna/Coding/ReactApi/LocusMobile/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/Anna/Coding/ReactApi/LocusMobile/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/Anna/Coding/ReactApi/LocusMobile/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/Anna/Coding/ReactApi/LocusMobile/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/Anna/Coding/ReactApi/LocusMobile/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/Anna/Coding/ReactApi/LocusMobile/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/Anna/Coding/ReactApi/LocusMobile/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h
